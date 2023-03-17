@@ -53,7 +53,7 @@ function HomeContent() {
 
         <Section id="#work">
           <TitleComponent title="work" />
-          <div className="grid grid-cols-2 gap-20">
+          <div className="grid grid-col md:grid-cols-2 gap-20">
           <Container imagePath={IMAGE1} title="UFCat App" description="" alt="screen shot - UFCat app login page " tech={['flutter', 'dart', 'firebase']}/>
           <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>
           <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>

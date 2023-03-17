@@ -8,7 +8,7 @@ function Menu() {
       <header className="flex items-center text-slate-600 font-medium place-content-around pt-8 pb-2 fixed top-0 w-[100vw] z-50 bg-white drop-shadow-sm">
         <h1 className="text-lg">{TITLE}</h1>
 
-        <nav className="text-base uppercase">
+        <nav className="text-base uppercase hidden md:block">
           <ul className="flex gap-10">
             <Link href="/">about</Link>
             <Link href="/">skills</Link>
