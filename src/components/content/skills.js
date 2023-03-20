@@ -1,24 +1,22 @@
 import { useEffect, useState } from "react";
 import skillsIcons from "./data_icons";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function Skills() {
   const [tag, setTag] = useState("all");
   const [filteredIcons, setFilteredIcons] = useState([]);
 
   useEffect(() => {
-    AOS.init({ duration: 1000 });
-    AOS.refresh();
-
     tag === "all"
       ? setFilteredIcons(skillsIcons)
       : setFilteredIcons(skillsIcons.filter((icon) => icon.tag === tag));
   }, [tag]);
 
+  function Color() {
+   return "bg-slate-50"
+  }
   return (
     <div className="">
-      <div className="flex place-content-around mb-10">
+      <div className="flex place-content-around mb-16">
         <TagButton
           name="all"
           handleSetTag={setTag}
@@ -34,17 +32,19 @@ function Skills() {
           handleSetTag={setTag}
           active={tag === "back-end" ? true : false}
         />
-        <TagButton
-          name="prototype"
-          handleSetTag={setTag}
-          active={tag === "prototype" ? true : false}
-        />
+        <div className="hidden">
+          <TagButton
+            name="prototype"
+            handleSetTag={setTag}
+            active={tag === "prototype" ? true : false}
+          />
+        </div>
       </div>
       <div>
-        <ul className="grid grid-cols-3 items-center md:grid-cols-4 gap-20">
+        <ul className="grid grid-cols-2 items-center md:grid-cols-4 gap-20">
           {filteredIcons.map((skill) => (
-            <li key={skill.id} className="flex flex-col items-center" data-aos="zoom-in">
-              {skill.icon}
+            <li key={skill.id} className="flex flex-col items-center">
+              <div className={`p-6 rounded-full ${skill.bg}`}>{skill.icon}</div>
               <p className="text-base pt-2 capitalize">{skill.name}</p>
             </li>
           ))}
@@ -57,7 +57,10 @@ function Skills() {
 const TagButton = ({ name, handleSetTag, active }) => {
   return (
     <button
-      className={`${active ? "bg-slate-200 font-semibold duration-500" : null}` + " uppercase p-2 rounded-lg "}
+      className={
+        `${active ? "bg-stone-100 font-semibold duration-500" : null}` +
+        " uppercase p-2 rounded-lg"
+      }
       onClick={() => {
         handleSetTag(name);
       }}

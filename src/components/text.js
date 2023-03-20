@@ -1,6 +1,6 @@
 function TextComponent({text, ...props}){
     return(
-        <p className="text-base font-normal" {...props}>{text} <span className="text-slate-500">{props.span}</span> {props.after}</p>
+        <p className="text-base font-normal" {...props}>{text} <span className="bg-yellow-200">{props.span}</span> {props.after}</p>
     )
 }
 

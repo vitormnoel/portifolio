@@ -1,6 +1,7 @@
 import Banner from "../banner";
 import Main from "../main";
 import Section from "../section";
+import Social from "../social";
 import TextComponent from "../text";
 import TitleComponent from "../title";
 import Container from "./container";
@@ -21,17 +22,13 @@ function HomeContent() {
   to the community.
   `;
 
-  const text3 = `
-  When I am not coding, I enjoy playing video games, specially league of legends, and spending time with my friends & family.
-  `;
-
   const IMAGE1 = "/images/ufcat.png";
 
   return (
     <>
       <Main>
         <Banner />
-        <Section id="#about">
+        <Section id="about" fade="fade-left">
           <TitleComponent title="about" />
           <div>
             <TextComponent text={text1} />
@@ -44,24 +41,21 @@ function HomeContent() {
                     company."
             />
           </div>
+          <Social/>
         </Section>
 
-        <Section id="#skills">
+        <Section id="skills" fade="fade-right">
           <TitleComponent title="skills" />
           <Skills />
         </Section>
 
-        <Section id="#work">
+        <Section id="work" fade="fade-left">
           <TitleComponent title="work" />
           <div className="grid grid-col md:grid-cols-2 gap-20">
           <Container imagePath={IMAGE1} title="UFCat App" description="" alt="screen shot - UFCat app login page " tech={['flutter', 'dart', 'firebase']}/>
-          <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>
-          <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>
-          <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>
-          <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>
-          <Container imagePath={IMAGE1} title="UFCat App" description="" alt="description" tech={['flutter', 'dart', 'firebase']}/>
+          <Container imagePath={IMAGE1} title="PetShop+" description="" alt="description" tech={['java', 'mySQL']}/>
+          <Container imagePath={IMAGE1} title="Notes" description="" alt="description" tech={['react', 'javaScript', 'CSS 3']}/>
           </div>
-          
         </Section>
       </Main>
     </>

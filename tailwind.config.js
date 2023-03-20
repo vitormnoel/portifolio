@@ -6,7 +6,21 @@ module.exports = {
     "./pages/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          light: '#a5caff'
+        },
+        green: {
+          light: '#00b78c',
+          light_1: '#00CB79',
+        },
+        purple: {
+          light: '#A3C3FF',
+          mid: '#6366F1',
+        }
+      }
+    },
   },
   plugins: [],
 }

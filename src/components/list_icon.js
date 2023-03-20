@@ -15,7 +15,7 @@ function ListIcon({ icon, href, ...props }) {
 
   return (
     <li>
-      <a href={href} >{Icon()}</a>
+      <a href={href} target="_blank" >{Icon()}</a>
     </li>
   );
 }

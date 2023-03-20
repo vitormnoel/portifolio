@@ -5,7 +5,7 @@ function Main({ children, ...props }) {
     <>
       <Menu />
       
-      <main>{children}</main>
+      <main className="overflow-hidden">{children}</main>
     </>
   );
 }
