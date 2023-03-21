@@ -1,4 +1,5 @@
 import Banner from "../banner";
+import Contact from "../contact";
 import Main from "../main";
 import Section from "../section";
 import Social from "../social";
@@ -9,7 +10,7 @@ import Skills from "./skills";
 
 function HomeContent() {
   const text1 = `
-    Hello world! I am Vitor, a Software Engineer based in Vancouver.
+    Hello world! I am a Software Engineer based in Vancouver.
     I received my Bachelor's degree in Computer Science from the 
     Federal University of Catalão in 2022. For the past 4 years I have 
     been working as a developer and I have experience with a wide 
@@ -23,6 +24,9 @@ function HomeContent() {
   `;
 
   const IMAGE1 = "/images/ufcat.png";
+  const IMAGE2 = "/images/snack.png";
+  const IMAGE3 = "/images/travel.png";
+  const IMAGE4 = "/images/petshop.png";
 
   return (
     <>
@@ -41,7 +45,7 @@ function HomeContent() {
                     company."
             />
           </div>
-          <Social/>
+          <Social />
         </Section>
 
         <Section id="skills" fade="fade-right">
@@ -52,11 +56,50 @@ function HomeContent() {
         <Section id="work" fade="fade-left">
           <TitleComponent title="work" />
           <div className="grid grid-col md:grid-cols-2 gap-20">
-          <Container imagePath={IMAGE1} title="UFCat App" description="" alt="screen shot - UFCat app login page " tech={['flutter', 'dart', 'firebase']}/>
-          <Container imagePath={IMAGE1} title="PetShop+" description="" alt="description" tech={['java', 'mySQL']}/>
-          <Container imagePath={IMAGE1} title="Notes" description="" alt="description" tech={['react', 'javaScript', 'CSS 3']}/>
+            <Container
+              imagePath={IMAGE1}
+              links="git"
+              git="https://github.com/welesonbatista/UFMIAU"
+              link="/"
+              title="UFCat App"
+              description=""
+              alt="screen shot - UFCat app login page "
+              tech={["flutter", "dart", "firebase"]}
+            />
+            <Container
+              imagePath={IMAGE2}
+              links="both"
+              git="https://github.com/vitormnoel/delivery"
+              link="https://snackinho-test.vercel.app/"
+              title="Snack - Delivery App"
+              description=""
+              alt="screen shot - snack food delivery app"
+              tech={["next", "typeScript", "sass"]}
+            />
+            <Container
+              imagePath={IMAGE3}
+              links="both"
+              git="https://github.com/vitormnoel/travel-notes"
+              link="https://travel-notes.vercel.app/"
+              title="Travel App"
+              description=""
+              alt="description"
+              tech={["react", "javaScript", "CSS 3"]}
+            />
+            <Container
+              imagePath={IMAGE4}
+              links="git"
+              git="https://github.com/vitormnoel/petshop-application"
+              title="PetShop+"
+              description=""
+              alt="description"
+              tech={["java", "mySQL"]}
+            />
+            
           </div>
         </Section>
+
+        <Contact />
       </Main>
     </>
   );

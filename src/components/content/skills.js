@@ -43,7 +43,7 @@ function Skills() {
       <div>
         <ul className="grid grid-cols-2 items-center md:grid-cols-4 gap-20">
           {filteredIcons.map((skill) => (
-            <li key={skill.id} className="flex flex-col items-center">
+            <li key={skill.id} className="flex flex-col items-center drop-shadow-lg hover:drop-shadow-md">
               <div className={`p-6 rounded-full ${skill.bg}`}>{skill.icon}</div>
               <p className="text-base pt-2 capitalize">{skill.name}</p>
             </li>
