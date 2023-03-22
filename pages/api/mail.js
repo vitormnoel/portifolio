@@ -20,10 +20,10 @@ export default (req, res) => {
         html: message.replace(/\r\n/g, '<br>'),
     }
 
-    mail.send(data);
+    mail.send(data).catch(err => console.log(err));
 
-    console.log(data)
+    // console.log(data)
 
-    res.status(200).json({ status: 'Ok' })
-    res.status(400).json({ status: 'Error' })
+    // res.status(200).json({ status: 'Ok' })
+    // res.status(400).json({ status: 'Error' })
 }
