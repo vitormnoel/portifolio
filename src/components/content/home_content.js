@@ -1,5 +1,6 @@
 import Banner from "../banner";
 import Contact from "../contact";
+import Footer from "../footer";
 import Main from "../main";
 import Section from "../section";
 import Social from "../social";
@@ -60,7 +61,6 @@ function HomeContent() {
               imagePath={IMAGE1}
               links="git"
               git="https://github.com/welesonbatista/UFMIAU"
-              link="/"
               title="UFCat App"
               description=""
               alt="screen shot - UFCat app login page "
@@ -83,7 +83,7 @@ function HomeContent() {
               link="https://travel-notes.vercel.app/"
               title="Travel App"
               description=""
-              alt="description"
+              alt="screen shot - ui travel app"
               tech={["react", "javaScript", "CSS 3"]}
             />
             <Container
@@ -92,14 +92,16 @@ function HomeContent() {
               git="https://github.com/vitormnoel/petshop-application"
               title="PetShop+"
               description=""
-              alt="description"
+              alt="screen shot - code editor with java code"
               tech={["java", "mySQL"]}
             />
-            
           </div>
         </Section>
 
         <Contact />
+
+        <Footer />
+        
       </Main>
     </>
   );
