@@ -11,7 +11,7 @@ import Skills from "./skills";
 
 function HomeContent() {
   const text1 = `
-    Hello world! I am a Software Engineer based in Vancouver.
+    Hello world! I am a Software Engineer based in Vancouver /Canada.
     I received my Bachelor's degree in Computer Science from the 
     Federal University of Catalão in 2022. For the past 4 years I have 
     been working as a developer and I have experience with a wide 
@@ -101,7 +101,7 @@ function HomeContent() {
         <Contact />
 
         <Footer />
-        
+
       </Main>
     </>
   );

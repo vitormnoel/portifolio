@@ -8,7 +8,8 @@ function HomePage() {
         <Head>
             <title>{title}</title>
             <link rel="icon" href="data:,"></link>
-            <meta/>
+            <meta name='description' content='vitor manoel - portifolio page'/>
+            <link rel='icon' href='/favicon.ico'/>
         </Head>
         
         <Content/>
