@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         blue: {
-          light: '#a5caff'
+          light: '#a5caff',
+          dark: '#111729'
         },
         green: {
           light: '#00b78c',
@@ -18,6 +19,9 @@ module.exports = {
         purple: {
           light: '#A3C3FF',
           mid: '#6366F1',
+        },
+        black: {
+          mid: "#222222"
         }
       }
     },

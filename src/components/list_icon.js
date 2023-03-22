@@ -1,4 +1,5 @@
-import { FaLinkedinIn, FaGithub, FaFilePdf, FaTelegram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTelegram } from "react-icons/fa";
+import { BsFiletypePdf } from "react-icons/bs";
 
 function ListIcon({ icon, href, ...props }) {
   function Icon() {
@@ -7,7 +8,7 @@ function ListIcon({ icon, href, ...props }) {
     } else if (icon == "github") {
       return <FaGithub size="25"/>;
     } else if (icon == "resume") {
-      return <FaFilePdf size="25"/>;
+      return <BsFiletypePdf size="25"/>;
     }else if (icon == "telegram") {
       return <FaTelegram size="25"/>;
     }

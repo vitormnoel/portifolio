@@ -1,9 +1,9 @@
 import Banner from "../banner";
 import Contact from "../contact";
 import Footer from "../footer";
+import Icons from "../icons";
 import Main from "../main";
 import Section from "../section";
-import Social from "../social";
 import TextComponent from "../text";
 import TitleComponent from "../title";
 import Container from "./container";
@@ -46,7 +46,10 @@ function HomeContent() {
                     company."
             />
           </div>
-          <Social />
+
+          <div className="mt-20 sm:hidden">
+            <Icons/>
+          </div>
         </Section>
 
         <Section id="skills" fade="fade-right">
@@ -101,7 +104,6 @@ function HomeContent() {
         <Contact />
 
         <Footer />
-
       </Main>
     </>
   );
