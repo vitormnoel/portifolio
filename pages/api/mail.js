@@ -20,7 +20,7 @@ export default (req, res) => {
         html: message.replace(/\r\n/g, '<br>'),
     }
 
-    mail.send(data).catch(err => console.log(err));
+    return mail.send(data).catch(err => console.log(err));
 
     // console.log(data)
 
