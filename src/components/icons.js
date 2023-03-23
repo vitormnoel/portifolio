@@ -5,7 +5,7 @@ function Icons() {
     <ul className="py-4 flex flex-row sm:flex-col sm:gap-5 gap-10 justify-center">
       <ListIcon
         icon="resume"
-        href="https://drive.google.com/drive/folders/1o-wKfWKNpwvzqsznNa_duCRrYg2E5YD7?usp=sharing"
+        href="https://drive.google.com/file/d/1-xa0EdFRJnIBhaGe6CTDiRaZe3a8Ew8J/view?usp=sharing"
       />
       <ListIcon
         icon="linkedin"
