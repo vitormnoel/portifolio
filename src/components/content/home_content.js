@@ -101,7 +101,7 @@ function HomeContent() {
             />
             <Container
               imagePath={IMAGE5}
-              links="web"
+              links="git"
               git="https://github.com/vitormnoel/app_client"
               title="Feedback App"
               description=""
