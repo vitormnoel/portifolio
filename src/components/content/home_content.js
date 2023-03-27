@@ -28,6 +28,7 @@ function HomeContent() {
   const IMAGE2 = "/images/snack.png";
   const IMAGE3 = "/images/travel.png";
   const IMAGE4 = "/images/petshop.png";
+  const IMAGE5 = "/images/feedback.png";
 
   return (
     <>
@@ -97,6 +98,15 @@ function HomeContent() {
               description=""
               alt="screen shot - code editor with java code"
               tech={["java", "mySQL"]}
+            />
+            <Container
+              imagePath={IMAGE5}
+              links="web"
+              git="https://github.com/vitormnoel/app_client"
+              title="Feedback App"
+              description=""
+              alt="screen shot - hospital feedback app"
+              tech={["Flutter", "Rest API", "PHP"]}
             />
           </div>
         </Section>
