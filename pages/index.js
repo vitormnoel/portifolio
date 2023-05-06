@@ -2,7 +2,7 @@ import Head from 'next/head';
 import path from 'path';
 import fs from 'fs/promises';
 
-import Content from '../src/components/content/home_content';
+import Content from '../src/components/content';
 
 function HomePage(props) {
     const title = "(vitormnoel);"
