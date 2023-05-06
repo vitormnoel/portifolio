@@ -9,21 +9,7 @@ import TitleComponent from "../title";
 import Container from "./container";
 import Skills from "./skills";
 
-function HomeContent() {
-  const text1 = `
-    Hello world! I am a Software Engineer based in Vancouver /Canada.
-    I received my Bachelor's degree in Computer Science from the 
-    Federal University of Catalão in 2022. For the past 4 years I have 
-    been working as a developer and I have experience with a wide 
-    range of technologies. You can find a list of my technical skills below.`;
-
-  const text2 = `
-  I am passionate about building web applications that are fast, 
-  responsive and accessible. I am also a fan of open source 
-  software and I am always looking for new ways to contribute 
-  to the community.
-  `;
-
+function HomeContent(props) {
   const IMAGE1 = "/images/ufcat.png";
   const IMAGE2 = "/images/snack.png";
   const IMAGE3 = "/images/travel.png";
@@ -37,19 +23,29 @@ function HomeContent() {
         <Section id="about" fade="fade-left">
           <TitleComponent title="about" />
           <div>
-            <TextComponent text={text1} />
-            <br />
-            <TextComponent
-              text={text2}
-              span="I am currently looking for a new opportunity"
-              after="
-                    to continue refining my skills with the right 
-                    company."
-            />
-          </div>
-
-          <div className="mt-20 sm:hidden">
-            <Icons/>
+            <p className="py-2 mt-6">
+              I recently graduated from the Federal University of Goias after
+              completing a Bachelor's degree in Computer Science. For the past 4
+              years I have been working as a developer and I have experience
+              with a wide range of technologies. You can find a list of my
+              technical skills below.
+            </p>
+            <p className="py-2">
+              I am a self-motivated learner, able to work independently and
+              collaboratively in a team.{" "}
+              <span className="bg-yellow-200 cursor-pointer">
+                I am currently looking for a new opportunity
+              </span>{" "}
+              to continue refining my skills.
+            </p>
+            <p className="py-2">
+              <span className="font-semibold">
+                When I am not in front of a computer
+              </span>
+              , I will be doing an outdoor activity, traveling, playing video
+              games or listening to music.
+            </p>
+            <Icons />
           </div>
         </Section>
 

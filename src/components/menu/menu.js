@@ -22,7 +22,6 @@ function Menu() {
         {/* TO DO */}
         {/* <MobileNav /> */}
       </header>
-      <SideMenu />
     </>
   );
 }
