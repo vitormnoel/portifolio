@@ -11,9 +11,6 @@ function Skills() {
       : setFilteredIcons(skillsIcons.filter((icon) => icon.tag === tag));
   }, [tag]);
 
-  function Color() {
-   return "bg-slate-50"
-  }
   return (
     <div className="">
       <div className="flex place-content-around mb-16">
@@ -32,20 +29,19 @@ function Skills() {
           handleSetTag={setTag}
           active={tag === "back-end" ? true : false}
         />
-        <div className="hidden">
-          <TagButton
-            name="prototype"
-            handleSetTag={setTag}
-            active={tag === "prototype" ? true : false}
-          />
-        </div>
       </div>
       <div>
         <ul className="grid grid-cols-2 items-center sm:grid-cols-3 md:grid-cols-4 gap-20">
           {filteredIcons.map((skill) => (
-            <li key={skill.id} className="flex flex-col items-center drop-shadow-lg hover:drop-shadow-md">
-              <div className={`p-6 rounded-full ${skill.bg}`}>{skill.icon}</div>
-              <p className="text-base pt-2 capitalize">{skill.name}</p>
+            <li
+              key={skill.id}
+              className="flex flex-col items-center drop-shadow-lg hover:drop-shadow-md"
+            >
+              <img className="w-[46px]" src={skill.icon} />
+
+              <p className="text-base text-slate-600 pt-6 capitalize">
+                {skill.name}
+              </p>
             </li>
           ))}
         </ul>
@@ -58,7 +54,7 @@ const TagButton = ({ name, handleSetTag, active }) => {
   return (
     <button
       className={
-        `${active ? "bg-stone-100 font-semibold duration-500" : null}` +
+        `font-semibold text-slate-500 ${active ? "bg-stone-100 text-slate-800 duration-500" : null}` +
         " uppercase p-2 rounded-lg"
       }
       onClick={() => {
