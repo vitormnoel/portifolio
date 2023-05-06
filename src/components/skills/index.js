@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
-import skillsIcons from "./data_icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import skillsIcons from "../../../data/data_icons";
+import TitleComponent from "../title";
 
 function Skills() {
   const [tag, setTag] = useState("all");
@@ -9,10 +13,19 @@ function Skills() {
     tag === "all"
       ? setFilteredIcons(skillsIcons)
       : setFilteredIcons(skillsIcons.filter((icon) => icon.tag === tag));
+
+    AOS.init({ duration: 1000 });
+    AOS.refresh();
   }, [tag]);
 
   return (
-    <div className="">
+    <section
+      id="skills"
+      data-aos="fade-left"
+      className="overflow-hidden container pt-28 m-auto px-8 lg:max-w-3xl"
+    >
+      <TitleComponent title="skills" />
+
       <div className="flex place-content-around mb-16">
         <TagButton
           name="all"
@@ -46,7 +59,7 @@ function Skills() {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }
 
@@ -54,8 +67,9 @@ const TagButton = ({ name, handleSetTag, active }) => {
   return (
     <button
       className={
-        `font-semibold text-slate-500 ${active ? "bg-stone-100 text-slate-800 duration-500" : null}` +
-        " uppercase p-2 rounded-lg"
+        `font-semibold text-slate-500 ${
+          active ? "bg-stone-100 text-slate-800 duration-500" : null
+        }` + " uppercase p-2 rounded-lg"
       }
       onClick={() => {
         handleSetTag(name);

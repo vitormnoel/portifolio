@@ -48,7 +48,7 @@ function MobileNavBar({ open, setOpen }) {
           <ul className="flex flex-col justify-center itens-center gap-10">
             <Link href="#about">about</Link>
             <Link href="#skills">skills</Link>
-            <Link href="#work">work</Link>
+            <Link href="#projects">projects</Link>
             <Link href="#contact">contact</Link>
           </ul>
         </nav>
