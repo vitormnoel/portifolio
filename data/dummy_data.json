@@ -8,16 +8,16 @@
   "projects": [
     {
       "id": 0,
-      "image": "../public/images/snack.png",
+      "image": "images/snack.png",
       "title": "Snack Delivery App",
       "description": "With the Snack App, you can easily browse through a variety of restaurants and cuisines, place your order, and have your favorite dishes delivered straight to your home or office. We also offers the option to track your order in real-time, so you can know exactly when your food will arrive. ",
-      "tags": ["TypeScript", "Next", "Sass", "RestAPI"],
+      "tags": ["TypeScript", "Next", "Sass", "Rest"],
       "preview": "https://snackinho-test.vercel.app/",
       "github": "https://github.com/vitormnoel/delivery"
     },
     {
       "id": 1,
-      "image": "../public/images/feedback.png",
+      "image": "images/feedback.png",
       "title": "Hospital App",
       "description": "Hospital Feedback app",
       "tags": ["Flutter", "Firebase", "RestAPI"],
