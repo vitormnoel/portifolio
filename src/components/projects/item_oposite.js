@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Fragment } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 
 function CardItemOp(props) {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 items-center lg:gap-10">
+    <Fragment>
       <div>
         <Image
           src={"/" + props.project.image}
@@ -54,7 +55,7 @@ function CardItemOp(props) {
           </Link>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 }
 

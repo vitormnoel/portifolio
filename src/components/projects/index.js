@@ -2,7 +2,6 @@ import TitleComponent from "../title";
 import CardItemOp from "./item_oposite";
 
 function ProjectsSection(props) {
-  let i = 0;
   return (
     <section
       id="projects"
@@ -14,7 +13,9 @@ function ProjectsSection(props) {
       <div className="grid gap-20">
         {/* <div className="w-full h-[40vh] bg-[url('../public/images/snack.png')] bg-contain rounded-2xl lg:w-1/2"/> */}
         {props.projects.map((project) => (
-          <CardItemOp project={project} />
+          <div className="flex flex-col lg:flex-row gap-4 items-center lg:gap-10" key={project.id}>
+            <CardItemOp project={project} />
+          </div>
         ))}
       </div>
     </section>
