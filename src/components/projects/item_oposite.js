@@ -4,7 +4,6 @@ import { FaGithub } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 
 function CardItemOp(props) {
-  console.log(props.project);
   return (
     <div className="flex flex-col lg:flex-row gap-4 items-center lg:gap-10">
       <div>
