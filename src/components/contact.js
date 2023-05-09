@@ -1,4 +1,3 @@
-import Section from "./section";
 import Social from "./social";
 import TitleComponent from "./title";
 
@@ -34,7 +33,7 @@ function Contact() {
   }
 
   return (
-    <Section id="contact">
+    <section id="contact" className="pt-28 container m-auto w-[90%] md:w-1/2">
       <TitleComponent
         className="capitalize text-2xl font-semibold pb-6 text-center"
         title="get in touch"
@@ -76,7 +75,7 @@ function Contact() {
           send message
         </button>
       </form>
-    </Section>
+    </section>
   );
 }
 

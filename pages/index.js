@@ -15,7 +15,7 @@ function HomePage(props) {
             <link rel='icon' href='/favicon.ico'/>
         </Head>
         
-        <Content content={props.header}/>
+        <Content content={props.header} projects={props.projects}/>
         </>
     )
 }
@@ -29,6 +29,7 @@ export async function getStaticProps() {
     return {
       props: {
         header: data.header,
+        projects: data.projects,
       },
     };
   }

@@ -1,9 +1,28 @@
 {
-    "header": {
-      "title": "olá mundo!",
-      "subtitle": ", a software engineer based in Vancouver /Canada. I am passionate about building good looking interfaces, web apps, and everything in between!"
-      , "text1":"Hello world! I am a Software Engineer based in Vancouver /Canada. I received my Bachelor's degree in Computer Science from the Federal University of Catalão in 2022. For the past 4 years I have been working as a developer and I have experience with a wide range of technologies. You can find a list of my technical skills below.",
-      "text2": "I am passionate about building web applications that are fast, responsive and accessible. I am also a fan of open source software and I am always looking for new ways to contribute to the community."
+  "header": {
+    "title": "olá mundo!",
+    "subtitle": ", a software engineer based in Vancouver /Canada. I am passionate about building good looking interfaces, web apps, and everything in between!",
+    "text1": "Hello world! I am a Software Engineer based in Vancouver /Canada. I received my Bachelor's degree in Computer Science from the Federal University of Catalão in 2022. For the past 4 years I have been working as a developer and I have experience with a wide range of technologies. You can find a list of my technical skills below.",
+    "text2": "I am passionate about building web applications that are fast, responsive and accessible. I am also a fan of open source software and I am always looking for new ways to contribute to the community."
+  },
+  "projects": [
+    {
+      "id": 0,
+      "image": "../public/images/snack.png",
+      "title": "Snack Delivery App",
+      "description": "With the Snack App, you can easily browse through a variety of restaurants and cuisines, place your order, and have your favorite dishes delivered straight to your home or office. We also offers the option to track your order in real-time, so you can know exactly when your food will arrive. ",
+      "tags": ["TypeScript", "Next", "Sass", "RestAPI"],
+      "preview": "https://snackinho-test.vercel.app/",
+      "github": "https://github.com/vitormnoel/delivery"
+    },
+    {
+      "id": 1,
+      "image": "../public/images/feedback.png",
+      "title": "Hospital App",
+      "description": "Hospital Feedback app",
+      "tags": ["Flutter", "Firebase", "RestAPI"],
+      "preview": "",
+      "github": "https://github.com/vitormnoel/api_client_app"
     }
-  }
-  
+  ]
+}

@@ -14,7 +14,7 @@ function HomeContent(props) {
 
       <AboutSection />
 
-      <ProjectsSection />
+      <ProjectsSection projects={props.projects}/>
 
       <Skills />
 
