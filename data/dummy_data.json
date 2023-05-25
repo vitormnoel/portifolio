@@ -11,7 +11,7 @@
       "image": "images/snack.png",
       "title": "Snack Delivery App",
       "description": "With the Snack App, you can easily browse through a variety of restaurants and cuisines, place your order, and have your favorite dishes delivered straight to your home or office. We also offers the option to track your order in real-time, so you can know exactly when your food will arrive. ",
-      "tags": ["TypeScript", "Next", "Sass", "Rest"],
+      "tags": ["TypeScript", "NextJS", "Sass", "RestAPI"],
       "preview": "https://snackinho-test.vercel.app/",
       "github": "https://github.com/vitormnoel/delivery"
     },
@@ -20,9 +20,18 @@
       "image": "images/feedback.png",
       "title": "Hospital App",
       "description": "Hospital Feedback app",
-      "tags": ["Flutter", "Firebase", "RestAPI"],
+      "tags": ["Flutter", "Firebase"],
       "preview": "",
       "github": "https://github.com/vitormnoel/api_client_app"
+    },
+    {
+      "id": 2,
+      "image": "images/catering.png",
+      "title": "Catering Website",
+      "description": "The Catering Website Project is an exciting venture that aims to revolutionize the way people plan and organize their events. With a focus on simplicity and functionality, our website will feature intuitive navigation, allowing users to easily browse through a wide range of catering options, explore menus, and request personalized quotes.",
+      "tags": ["NextJS", "Firebase"],
+      "preview": "https://catering-flax.vercel.app/",
+      "github": "https://github.com/vitormnoel/catering"
     }
   ]
 }

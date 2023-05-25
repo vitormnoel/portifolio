@@ -8,6 +8,7 @@ function CardItemOp(props) {
   return (
     <Fragment>
       <div>
+        <div className="overflow-hidden rounded-2xl">
         <Image
           src={"/" + props.project.image}
           width="0"
@@ -15,12 +16,13 @@ function CardItemOp(props) {
           sizes="100vw"
           alt="a"
           key={10}
-          className=" hover:scale-105 duration-300 rounded-2xl xl:w-1/2 xl:max-w-[25vw]"
+          className="hover:scale-105 duration-300 xl:w-1/2 xl:max-w-[25vw]"
           style={{
             width: "100%",
             height: "auto",
           }}
         />
+        </div>
         <ul className="flex flex-wrap gap-2 mt-4 text-sm justify-center">
           {props.project.tags.map((item) => (
             <li
