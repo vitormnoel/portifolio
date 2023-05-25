@@ -43,12 +43,6 @@ export default [
     tag: "front-end",
   },
   {
-    id: "8",
-    name: "Angular",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-plain.svg",
-    tag: "front-end",
-  },
-  {
     id: "9",
     name: "Node.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
@@ -70,12 +64,6 @@ export default [
     id: "12",
     name: "Dart",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
-    tag: "back-end",
-  },
-  {
-    id: "13",
-    name: "Python",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     tag: "back-end",
   },
   {
@@ -107,12 +95,6 @@ export default [
     id: "18",
     name: "Firebase",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-    tag: "back-end",
-  },
-  {
-    id: "19",
-    name: "Azure",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
     tag: "back-end",
   },
   {
