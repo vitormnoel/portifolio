@@ -18,9 +18,9 @@
     {
       "id": 1,
       "image": "images/feedback.png",
-      "title": "Hospital App",
-      "description": "Hospital Feedback app",
-      "tags": ["Flutter", "Firebase"],
+      "title": "Hospital Feedback App",
+      "description": "This Feedback app is a tool designed to streamline the feedback collection process in a hospital with its intuitive user interface and seamless cross-platform functionality.",
+      "tags": ["Flutter", "Dart", "RestAPI", "PHP", "MySQL" ],
       "preview": "https://drive.google.com/drive/u/0/folders/1e_xxNsp1hiNNMZy__zUi7zmgFTTkL7if",
       "github": "https://github.com/vitormnoel/api_client_app"
     },
