@@ -8,7 +8,7 @@ function CardItemOp(props) {
   return (
     <Fragment>
       <div>
-        <div className="overflow-hidden rounded-2xl">
+        <div className="overflow-hidden rounded">
         <Image
           src={"/" + props.project.image}
           width="0"
