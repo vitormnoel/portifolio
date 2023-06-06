@@ -11,16 +11,16 @@
       "image": "images/snack.png",
       "title": "Snack Delivery App",
       "description": "With the Snack App, you can easily browse through a variety of restaurants and cuisines, place your order, and have your favorite dishes delivered straight to your home or office. ",
-      "tags": ["TypeScript", "Next", "Sass", "RestAPI"],
+      "tags": ["TypeScript", "Next.js", "Sass", "RestAPI"],
       "preview": "https://snackinho-test.vercel.app/",
       "github": "https://github.com/vitormnoel/delivery"
     },
     {
       "id": 1,
       "image": "images/feedback.png",
-      "title": "Hospital Feedback App",
-      "description": "This Feedback app is a tool designed to streamline the feedback collection process in a hospital with its intuitive user interface and seamless cross-platform functionality.",
-      "tags": ["Flutter", "Dart", "RestAPI", "PHP", "MySQL" ],
+      "title": "NASIR EXPERIENCE APP",
+      "description": "This Feedback app is a tool designed to streamline the feedback collection process in a hospital with its intuitive user interface and seamless cross-platform functionality. It allows patients to provide feedback on their experience at the hospital, which can then be used by hospital staff to improve the quality of care provided to patients. Two Apps were developed, one for the patient and another for the hospital administration.",
+      "tags": ["Flutter", "Dart", "RestAPI", "PHP", "MySQL"],
       "preview": "https://drive.google.com/drive/u/0/folders/1e_xxNsp1hiNNMZy__zUi7zmgFTTkL7if",
       "github": "https://github.com/vitormnoel/api_client_app"
     },
@@ -28,8 +28,8 @@
       "id": 2,
       "image": "images/catering.png",
       "title": "Catering Website",
-      "description": "The Catering Website Project is an exciting venture that aims to revolutionize the way people plan and organize their events. With a focus on simplicity and functionality, our website will feature intuitive navigation, allowing users to easily browse through a wide range of catering options, explore menus, and request personalized quotes.",
-      "tags": ["NextJS", "Firebase"],
+      "description": "The Catering Website is an exciting online plataform that helps people visualize the services offered by the catering company in just one place. With a focus on simplicity and functionality, this website feature intuitive navigation, allowing users to easily browse through a wide range of catering options, explore menus, and request personalized quotes.",
+      "tags": ["Next.js", "Firebase", "TailwindCSS", "MongoDB"],
       "preview": "https://catering-flax.vercel.app/",
       "github": "https://github.com/vitormnoel/catering"
     }
