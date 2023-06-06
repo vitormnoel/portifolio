@@ -9,7 +9,7 @@
     {
       "id": 0,
       "image": "images/snack.png",
-      "title": "Snack Delivery App",
+      "title": "SNACK DELIVERY APP",
       "description": "With the Snack App, you can easily browse through a variety of restaurants and cuisines, place your order, and have your favorite dishes delivered straight to your home or office. ",
       "tags": ["TypeScript", "Next.js", "Sass", "RestAPI"],
       "preview": "https://snackinho-test.vercel.app/",
@@ -27,9 +27,9 @@
     {
       "id": 2,
       "image": "images/catering.png",
-      "title": "Catering Website",
+      "title": "CATERING WEBSITE",
       "description": "The Catering Website is an exciting online plataform that helps people visualize the services offered by the catering company in just one place. With a focus on simplicity and functionality, this website feature intuitive navigation, allowing users to easily browse through a wide range of catering options, explore menus, and request personalized quotes.",
-      "tags": ["Next.js", "Firebase", "TailwindCSS", "MongoDB"],
+      "tags": ["Next.js", "Firebase", "Tailwind", "MongoDB"],
       "preview": "https://catering-flax.vercel.app/",
       "github": "https://github.com/vitormnoel/catering"
     }
