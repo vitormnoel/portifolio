@@ -23,10 +23,10 @@ function CardItemOp(props) {
           }}
         />
         </div>
-        <ul className="flex flex-wrap gap-2 mt-4 text-sm justify-center">
+        <ul className="grid grid-cols-3 text-center gap-2 mt-4 text-sm justify-center">
           {props.project.tags.map((item) => (
             <li
-              className="mr-4 bg-slate-200/80 p-2 rounded-md font-medium hover:font-semibold cursor-pointer text-slate-600"
+              className="mr-4 bg-slate-200/80 p-2 rounded-md font-medium cursor-pointer text-slate-600"
               key={item}
             >
               {item}
