@@ -5,12 +5,12 @@ function Social() {
   return (
     <div className="my-16 flex gap-10 flex-col sm:flex-row items-center justify-center">
       <a
-        href="mailto:vtormnoel@gmail.com"
+        href="mailto:contact@vitormnoel.dev"
         target="_blank"
         className="flex gap-2 items-center justify-center w-[240px] rounded-lg border-2 border-purple-mid text-purple-mid p-5 hover:text-white hover:bg-purple-mid duration-300"
       >
         <HiOutlineMail size="20"/>
-        <p>vtormnoel@gmail.com</p>
+        <p>contact@vitormnoel.dev</p>
       </a>
       <a
         href="https://t.me/vitormnoel"
