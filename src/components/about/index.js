@@ -21,9 +21,9 @@ function AboutSection() {
 
       <div>
         <p className="py-2 mt-6">
-          I recently graduated from the Federal University of Goias after
-          completing a Bachelor's degree in Computer Science and moved to
-          Vancouver /Canada, where I am currently located.
+          I graduated from the Federal University of Goias after
+          completing a Bachelor's degree in Computer Science and moved abroad
+          , I am currently located in Barcelona /Spain.
         </p>
         <p className="py-2">
           I am passionate about building good looking interfaces, web apps, and
