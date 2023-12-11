@@ -29,7 +29,7 @@ function Banner() {
       <p className="text-base list-none flex gap-2">
         Get in touch 👉🏼{" "}
         <Link
-          href="mailto:vtormnoel@outlook.com"
+          href="mailto:contact@vitormnoel.dev"
           className="hover:text-indigo-500 underline underline-offset-4  duration-300"
         >
           /vitormnoel
