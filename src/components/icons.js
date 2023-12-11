@@ -6,7 +6,7 @@ function Icons() {
       
       <ListIcon
         icon="email"
-        href="mailto:vtormnoel@gmail.com"
+        href="mailto:contact@vitormnoel.dev"
       />
       <ListIcon
         icon="linkedin"
