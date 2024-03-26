@@ -6,15 +6,15 @@ import TitleComponent from "../title";
 import Icons from "../icons";
 
 function AboutSection() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-    AOS.refresh();
-  });
+  // useEffect(() => {
+  //   AOS.init({ duration: 1000 });
+  //   AOS.refresh();
+  // });
 
   return (
     <section
       id="about"
-      data-aos="fade-left"
+      // data-aos="fade-left"
       className="overflow-hidden container pt-28 m-auto px-8 lg:max-w-3xl"
     >
       <TitleComponent title="about" />

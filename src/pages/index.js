@@ -5,7 +5,7 @@ import fs from 'fs/promises';
 import Content from '../components/content';
 
 function HomePage(props) {
-    const title = "(vitormnoel);"
+    const title = "(vitormanoel);"
     return(
         <>
         <Head>

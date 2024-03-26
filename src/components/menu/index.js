@@ -2,7 +2,7 @@ import Link from "../link";
 import MobileNav from "./mobile_menu";
 
 function Menu() {
-  const TITLE = "(vitormnoel);";
+  const TITLE = "(vitormanoel);";
 
   return (
     <>
@@ -12,9 +12,9 @@ function Menu() {
         <nav className="text-base uppercase hidden md:block">
           <ul className="flex gap-10">
             <Link href="#about">about</Link>
-            <Link href="#projects">projects</Link>
+            {/* <Link href="#projects">projects</Link>
             <Link href="#skills">skills</Link>
-            <Link href="#contact">contact</Link>
+            <Link href="#contact">contact</Link> */}
           </ul>
         </nav>
 

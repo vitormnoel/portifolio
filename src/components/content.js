@@ -14,11 +14,11 @@ function HomeContent(props) {
 
       <AboutSection />
 
-      <ProjectsSection projects={props.projects}/>
+      {/* <ProjectsSection projects={props.projects}/> */}
 
-      <Skills />
+      {/* <Skills /> */}
 
-      <Contact />
+      {/* <Contact /> */}
 
       <Footer />
     </main>
